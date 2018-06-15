@@ -47,6 +47,7 @@ body {
 	font-family: "RobotoRegular", sans-serif;
 	overflow-x: hidden;
 	margin: 0;
+	-webkit-font-smoothing: antialiased;
 }
 p{
 	margin: 0;
