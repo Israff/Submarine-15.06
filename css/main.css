@@ -2268,7 +2268,9 @@ a.reviews_autor:before {
 	   object-fit: contain;
 	height: 122px;
 }
-
+.checkbox_list_item {
+	
+}
 /* Фильтр */
 .filter_category {
 	display: none;
@@ -2355,11 +2357,16 @@ a.reviews_autor:before {
 	outline: none;
 	cursor: pointer;
 }
+.search .icon {
+	width: 100%;
+	height: 1px;
+	position: relative;
+}
 .search .search_icon {
 	display: block;
     position: absolute;
-    right: 21px;
-    bottom: 7px;
+    right: 36px;
+    bottom: 15px;
     width: 12px;
     height: 13px;
     background: transparent url(../img/search_i.png)no-repeat center;
@@ -2372,6 +2379,15 @@ a.reviews_autor:before {
             filter: invert(63%);
     -webkit-filter: invert;
             filter: invert;
+}
+.checkbox_list {
+	margin-top: 11px;
+	margin-bottom: 17px;
+	height: 248px;
+	width: 100%;
+	max-width: 329px;
+	overflow:auto;
+	overflow-x:hidden;
 }
 
 .catalog_product {
