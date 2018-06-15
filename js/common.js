@@ -226,30 +226,33 @@ $(document).ready(function() {
 // 	//$(this).siblings().find('.submenu').first().toggle();
 // 	$(".submenu").siblings().find('.submenu').first().toggle();
 //   });
-	$(document).mouseup(function(e) {
-		var container = $(".main_navigation li");
-		if (container.has(e.target).length === 0){
-			$(".submenu").hide();
-			$('.btn_drop').removeClass('active');
-		}
-	});
 
-	$('.btn_drop').click(function(e) {
-		e.preventDefault();
 
-		var tab = $(this).attr('href');
+	/* Сделать для выпадашек в категориях */
+	// $(document).mouseup(function(e) {
+	// 	var container = $(".main_navigation li");
+	// 	if (container.has(e.target).length === 0){
+	// 		$(".submenu").hide();
+	// 		$('.btn_drop').removeClass('active');
+	// 	}
+	// });
 
-		if($(this).hasClass('active')) {
-			$(this).removeClass('active');
-			$(".submenu").removeAttr('style');
-		}
-		else {
-			$('.btn_drop').removeClass('active');
-			$(this).addClass('active');
-			$('.submenu').not(tab).css({'display':'none'});
-			$(tab).fadeIn(400);
-		}
-	});
+	// $('.btn_drop').click(function(e) {
+	// 	e.preventDefault();
+
+	// 	var tab = $(this).attr('href');
+
+	// 	if($(this).hasClass('active')) {
+	// 		$(this).removeClass('active');
+	// 		$(".submenu").removeAttr('style');
+	// 	}
+	// 	else {
+	// 		$('.btn_drop').removeClass('active');
+	// 		$(this).addClass('active');
+	// 		$('.submenu').not(tab).css({'display':'none'});
+	// 		$(tab).fadeIn(400);
+	// 	}
+	// });
 
 
 

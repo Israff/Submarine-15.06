@@ -3152,7 +3152,8 @@ form input[type="checkbox"] {
          -o-transform: rotate(-45deg);
             transform: rotate(-45deg);
     right: 17px;
-    top: 20px;
+	top: 20px;
+	transition: transform 0.6s;
 }
 ul.submenu {
     display: none;
@@ -3165,6 +3166,13 @@ ul.submenu {
 	-webkit-box-shadow: -2px 15px 83px -15px rgba(0,0,0,0.75);
 	   -moz-box-shadow: -2px 15px 83px -15px rgba(0,0,0,0.75);
 	        box-shadow: -2px 15px 83px -15px rgba(0,0,0,0.75);
+}
+.btn_hover:hover ul.submenu {
+	display: block;
+}
+.btn_hover:hover .btn_drop:after {
+	transform: rotate(-225deg);
+    top: 23px;
 }
 ul.submenu > li {
     display: block;
