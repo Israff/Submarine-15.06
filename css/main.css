@@ -106,7 +106,7 @@ footer .container {
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
-	padding: 0px 5px 0 23px;
+	padding: 0px 6px 0 24px;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
 	   -moz-box-pack: justify;
@@ -193,7 +193,7 @@ a{
 .head_info {
     min-height: 71px;
     padding: 0px 15px 0 25px;
-    padding-bottom: 32px;
+    padding-bottom: 36px;
     padding-top: 24px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -453,11 +453,12 @@ h2.white_caption {
 	        align-items: flex-start;
 }
 .page_services .container {
-	padding-top: 97px;
+	padding-top: 91px;
 	padding-bottom: 81px;
 }
 .page_services .wave_element {
 	margin-bottom: 50px;
+    margin-left: 23px;
 }
 .services_item {
 	width: 100%;
@@ -485,7 +486,8 @@ h2.white_caption {
 	background: transparent url('../img/waves.png') no-repeat center;
 }
 .page_services .wave_element:before {
-	left: 30%;
+	width: 100%;
+	top: 6px;
 }
 .services_item p,
 .reason_caption p {
@@ -527,6 +529,7 @@ h2.white_caption {
 }
 .page_services .services_list {
 	width: 100%;
+	padding-left: 17px;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
 	   -moz-box-pack: justify;
@@ -629,7 +632,9 @@ li.services_box:hover p.services_box {
 	display: block;
 	margin-bottom: 10px;
 }
-
+.page_services .services_ico {
+	
+}
 .services_list a p {
 	font-size: 12px;
 	font-family: "Gilroy - Extra Bold";
@@ -3586,13 +3591,24 @@ ul.submenu > li > a {
 }
 .pagingInfo {
 	position: absolute;
+	top: 40px;
+	left: -145px;
+	z-index: 999999;
+}
+.pagingInfo span:first-child {
+	/* Style for "01" */
 	color: #ffffff;
 	font-family: "Gilroy - Extra Bold";
 	font-size: 32px;
 	font-weight: 400;
-	top: 40px;
-	left: -145px;
-	z-index: 999999;
+}
+.pagingInfo span:last-child {
+	/* Style for "/ 07" */
+	color: #ffffff;
+	font-family: "Gilroy - Extra Bold";
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 13px;
 }
 .slick-next {
 	left: 90%;

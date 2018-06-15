@@ -26,6 +26,7 @@ $(document).ready(function() {
 			'transform' : "translate(0%, " + st/8 + "% "
 		});
 	});
+
 	$('.owl-carousel').owlCarousel({
 	nav: false,
 	loop:false,
@@ -253,14 +254,17 @@ $(document).ready(function() {
 
 
 	 /* Слик слайдер */
-	var $status = $('.pagingInfo');
+	var $status = $('.f_number');
+	var $quantity = $('.l_number');
 	var $slickElement = $('.slider_cool');
 
     $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
         //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
         var i = (currentSlide ? currentSlide : 0) + 1;
-        ($status.text(i + '/' + slick.slideCount ));
-    });
+		($status.text('0'+ i));
+		($quantity.text('/' +'0'+ slick.slideCount));
+	});
+	
 	 $('.slider_cool').slick({
 		dots: false,
 		infinite: false,
