@@ -25,6 +25,9 @@ $(document).ready(function() {
 		$(".parallax_elem_six").css({
 			'transform' : "translate(0%, " + st/8 + "% "
 		});
+		$(".parallax_elem_seven").css({
+			'transform' : "translate(0%, " + st/7 + "% "
+		});
 	});
 
 	$('.owl-carousel').owlCarousel({
