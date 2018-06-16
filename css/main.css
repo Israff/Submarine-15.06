@@ -324,6 +324,10 @@ a{
 	-moz-transform: translateZ(-.85px);
 	     transform: translateZ(-.85px);
 }
+.parallax_elem_one {
+	left: 150px;
+    top: -49px;
+}
 .parallax_elem_two,
 .parallax_elem_four,
 .parallax_elem_six {
@@ -350,7 +354,7 @@ a{
 	position: absolute;
 	width: 1520px;
 	height: auto;
-	left: -215px;
+	left: -186px;
 	top: 0;
 }
 .banner_img img {
