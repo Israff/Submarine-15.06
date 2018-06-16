@@ -305,8 +305,9 @@ a{
 .slider .parallax_elem_five {
 	top: -30rem;
 }
-.banner_block .parallax_elem_tree {
-	left: 404px;
+.parallax_elem_tree {
+    left: -77px;
+    top: -429px;
 }
 .parallax_elem_one,
 .parallax_elem_tree,
@@ -325,8 +326,8 @@ a{
 	     transform: translateZ(-.85px);
 }
 .parallax_elem_one {
-	right: 170px;
-    bottom: -67px;
+	top: -48px;
+    left: 140px;
 	display: block;
 	position: absolute;
 	width: 206px;
@@ -339,8 +340,18 @@ a{
 	     transform: translateZ(-.85px);
 }
 .parallax_elem_seven {
-	right: 150px;
-    top: -49px;
+	right: 174px;
+	bottom: -35px;
+	display: block;
+	position: absolute;
+	width: 206px;
+	height: 206px;
+	background: transparent url('../img/pixel1.png') no-repeat center;
+	position: absolute;
+	z-index: 99;
+	-webkit-transform: translateZ(-.85px);
+	-moz-transform: translateZ(-.85px);
+	     transform: translateZ(-.85px);
 }
 .parallax_elem_two,
 .parallax_elem_four,
@@ -367,6 +378,10 @@ a{
 .slider .parallax_elem_six {
 	left: 445px;
 	bottom: 100px;
+}
+.parallax_elem_six {
+	left: 589px;
+    bottom: 78px;
 }
 .banner_img {
 	position: absolute;
@@ -530,6 +545,7 @@ h2.white_caption {
 .reason_block a {
     padding: 23px 39px 23px 35px;
 	letter-spacing: 1.2px;
+	position: relative;
 }
 .services .container div:last-of-type {
 	width: 100%;
@@ -960,9 +976,8 @@ article.our_works_box {
 	max-width: 430px;
 }
 .reason_caption .btn {
-	padding: 22px 143px 24px 36px;
+	padding: 22px 36px 24px 36px;
     position: relative;
-
 }
 .reason_caption .btn {
 	color: #ffffff;
@@ -974,7 +989,12 @@ article.our_works_box {
 	text-transform: uppercase;
 	letter-spacing: 1.2px;
 }
-.reason_caption .btn:before {
+.reason_caption .btn:hover,
+.services_item .btn:hover {
+	padding-right: 143px;
+}
+.reason_caption .btn::before,
+.services_item .btn::before {
 	content: '';
 	position: absolute;
 	width: 25px;
@@ -3552,6 +3572,7 @@ ul.submenu > li > a {
 /*********************************/
 .slider {
 	width: 100%;
+	position: relative;
 }
 .slider .container {
 	position: relative;
