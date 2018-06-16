@@ -1774,21 +1774,21 @@ article .news_preview_caption h2 {
 	padding-top: 57px;
 }
 .pagination_btn {
-	width: 120px;
-	color: #333333;
-	font-family: "Montserrat - Semi Bold";
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 26px;
-	padding-top: 13px;
-	padding-bottom: 11px;
-	-webkit-border-radius: 24px;
-	   -moz-border-radius: 24px;
-	        border-radius: 24px;
-	border: 1px solid #0e64ad;
-	background: none;
-	outline: none;
-	cursor: pointer;
+	width: 121px;
+    color: #333333;
+    font-family: "Montserrat - Semi Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    border: 1px solid #0e64ad;
+    background: none;
+    outline: none;
+    cursor: pointer;
 }
 .pagination_btn:hover {
 	color: #fff;
@@ -1823,24 +1823,24 @@ article .news_preview_caption h2 {
 	    -ms-flex-align: center;
 	        align-items: center;
 	margin-left: 36px;
-	margin-right: 15px;
+	margin-right: 17px;
 }
 .pagination ul a {
 	height: 14px;
-	color: #030622;
-	font-family: 'Montserrat-Bold';
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 26px;
-	padding: 11px 18px;
-	-webkit-border-radius: 50%;
-	   -moz-border-radius: 50%;
-	        border-radius: 50%;
-	cursor: pointer;
+    color: #030622;
+    font-family: 'Montserrat-Bold';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 13px 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
 	display: inline;
 }
 .pagination ul li {
-	margin-right: 12px;
+	margin-right: 10px;
 }
 .pagination ul li:last-child {
 	margin: 0;
@@ -2166,7 +2166,7 @@ a.reviews_autor:before {
 
 .catalog_page .container {
 	padding-top: 93px;
-	padding-bottom: 100px;
+	padding-bottom: 104px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -moz-box;
@@ -2188,6 +2188,7 @@ a.reviews_autor:before {
 .catalog_page .pagination {
 	padding-top: 115px;
     padding-bottom: 7px;
+    margin-left: 23px;
 }
 .catalog_box {
 	width: 100%;
@@ -2223,60 +2224,72 @@ a.reviews_autor:before {
 	    -ms-flex-align: center;
 	        align-items: center;
 	width: 100%;
-	margin-bottom: 150px;
+	margin-bottom: 184px;
 }
 .catalog_list_item {
-	display: block;
-	width: 100%;
-	max-width: 185px;
-	margin: 25px 5px;
+    display: block;
+    width: 100%;
+    max-width: 185px;
+    margin: 16px 6px 30px;
 }
 .catalog_list_item span{
-	width: 86%;
+	width: 99%;
 	height: 24px;
 	color: #333333;
 	font-family: "Montserrat - Semi Bold";
 	font-size: 12px;
 	font-weight: 400;
-	display: inline-block;
+	display: block;
 	text-align: left;
 }
 .catalog_list_item div {
-	width: 100%;
-	max-width: 147px;
-	height: 122px;
-	overflow: hidden;
-	margin-bottom: 15px;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: start;
-	-webkit-justify-content: flex-start;
-	   -moz-box-pack: start;
-	    -ms-flex-pack: start;
-	        justify-content: flex-start;
-	-webkit-box-align: end;
-	-webkit-align-items: flex-end;
-	   -moz-box-align: end;
-	    -ms-flex-align: end;
-	        align-items: flex-end;
+    width: 100%;
+    max-width: 147px;
+    height: 122px;
+    overflow: hidden;
+    margin-bottom: 29px;
+    margin-top: 1px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: end;
+    -ms-flex-align: end;
+    align-items: center;
 }
 .catalog_list_item div img {
 	-o-object-fit: contain;
 	   object-fit: contain;
 	height: 122px;
 }
-.checkbox_list_item {
-	
+.mCSB_scrollTools {
+	right: -5px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 4px;
+	border-radius: 2px;
+	background-color: #0e64ad;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover {
+	background-color: #0e64ad;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+	background-color: #eeeeee;
 }
 /* Фильтр */
 .filter_category {
 	display: none;
 	position: absolute;
-	top: 35px;
-    left: -50px;
+	top: 55px;
+    left: -35px;
 	background-color: #fff;
 	width: 372px;
 	-webkit-box-shadow: 0px 15px 38px -9px rgba(0,0,0,0.75);
@@ -2284,6 +2297,11 @@ a.reviews_autor:before {
 	        box-shadow: 0px 15px 38px -9px rgba(0,0,0,0.75);
 	padding-top: 15px;
 	z-index: 99999;
+}
+.filter_category form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .filter_category .search {
 	width: 100%;
@@ -2323,23 +2341,39 @@ a.reviews_autor:before {
 	    -ms-flex-wrap: nowrap;
 	        flex-wrap: nowrap;
 	position: relative;
-	padding: 5px 5px 5px 35px;
+	padding: 6px 0px 5px 33px;
 }
 .filter_category .btn {
-	background: #0162af;
 	outline: none;
 	border: none;
-	width: 91%;
 	padding: 5px 0;
-	margin: 15px;
+	margin: 15px 0;
 	cursor: pointer;
+	width: 330px;
+	height: 42px;
+	background-color: #0e64ad;
+	color: #ffffff;
+	font-family: "Gilroy - Extra Bold";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
 }
 .filter_category label {
 	color: #333333;
-	font-family: "Montserrat - Semi Bold";
-	font-size: 14px;
-	font-weight: 400;
+	font-family: "Montserrat-Medium";
 	cursor: pointer;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 14px;
+}
+.filter_name:hover .filter_category {
+	display: block;
+}
+.filter_name:hover::after {
+	transform: rotate(-225deg);
+	top: 30px;
 }
 .search input[type="search"] {
 	width: 331px;
@@ -2382,12 +2416,15 @@ a.reviews_autor:before {
 }
 .checkbox_list {
 	margin-top: 11px;
-	margin-bottom: 17px;
+	margin-bottom: 8px;
 	height: 248px;
 	width: 100%;
-	max-width: 329px;
+	max-width: 330px;
 	overflow:auto;
 	overflow-x:hidden;
+}
+.filter_category .btn:hover {
+	background: #074c83;
 }
 
 .catalog_product {
@@ -2419,8 +2456,6 @@ a.reviews_autor:before {
        -moz-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding-top: 18px;
-    padding-bottom: 18px;
     border-bottom: 1px solid #eeeeee;
     border-top: 1px solid #eeeeee;
     margin-bottom: 58px;
@@ -2429,13 +2464,13 @@ a.reviews_autor:before {
 	position: relative;
 }
 .catalog_filter > div:first-of-type {
-	margin-left: 36px;
+	margin-left: 12px;
 }
 .catalog_filter > div:nth-of-type(2) {
-    margin-left: 230px;
+    margin-left: 182px;
 }
 .catalog_filter > div:last-of-type {
-    margin-left: 230px;
+    margin-left: 166px;
 }
 .catalog_filter a {
 	color: #333333;
@@ -2443,21 +2478,24 @@ a.reviews_autor:before {
 	font-size: 14px;
 	font-weight: 400;
 	position: relative;
+	display: block;
+	padding: 20px 24px 19px;
 }
-.catalog_filter a:after {
-    content: '';
+a.filter_name:after {
+	content: '';
     position: absolute;
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
     border-left: 2px solid #333333;
     border-bottom: 2px solid #333333;
     -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-         -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-    right: -21px;
-    top: 4px;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    transition: transform 0.2s;
+    right: 12px;
+    top: 27px;
 }
 
 .overlay:before {
@@ -2504,10 +2542,13 @@ a.reviews_autor:before {
 	display: block;
 }
 
-.product_item > div {
+.product_item a > div {
 	position: relative;
 }
-.product_item > div:first-of-type {
+.product_item a {
+	position: relative;
+}
+.product_item a div:first-of-type {
 	width: 100%;
 	height: 215px;
 	margin-bottom: 32px;
@@ -2530,20 +2571,22 @@ a.reviews_autor:before {
 	-o-object-fit: contain;
 	   object-fit: contain;
 }
-.product_item a:first-of-type {
+.product_item_desc span:first-of-type {
 	color: #0e64ad;
 	font-family: 'Montserrat-Regular';
 	font-size: 16px;
 	font-weight: 400;
+	margin-bottom: 6px;
 }
-.product_item a:last-of-type,
-.product_item a:nth-last-of-type(2) {
+.product_item_desc span:nth-last-of-type(2) {
 	color: #333333;
 	font-family: "Gilroy - Extra Bold";
 	font-size: 20px;
 	font-weight: 400;
 	display: block;
 	margin-bottom: 11px;
+	display: block;
+	line-height: 21px;
 }
 .product_item .product_price {
 	color: #aaaaaa;
@@ -2553,6 +2596,15 @@ a.reviews_autor:before {
 	position: absolute;
 	bottom: 10px;
 	left: 0;
+}
+.product_item_desc .backet_h {
+	color: #ffffff;
+	font-family: "Gilroy - Extra Bold";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
 }
 .product_item_desc .product_price {
 	position: unset;
@@ -2578,13 +2630,13 @@ a.reviews_autor:before {
 	padding: 0 0px 0 13px;
 	height: 100px;
 }
-.catalog_product a.backet_h {
+.catalog_product .backet_h {
 	background: #0162af;
     position: absolute;
     color: #fff;
     outline: none;
     border: none;
-	width: 287px;
+	width: 280px;
     font-size: 13px;
     padding: 10px 0;
     bottom: -64px;
@@ -2611,11 +2663,12 @@ a.reviews_autor:before {
 	box-shadow: 0px 6px 47px -9px rgba(0,0,0,0.75);
 } */
 .catalog_product .product_banner {
-	overflow: hidden;
-	width: 100%;
-	max-width: 522px;
-	height: 322px;
-	position: relative;
+	margin: 29px 53px 0 14px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 520px;
+    height: 320px;
+    position: relative;
 }
 .product_banner .our_works_content {
 	bottom: -66px;
@@ -3079,7 +3132,7 @@ article.product_banner:hover .hover_works:before {
 form input[type="checkbox"] {
 	/* display: none; */
 	visibility: hidden;
-	width: 20px;
+	width: 0px;
 	height: 20px;
 	-webkit-border-radius: 4px;
 	   -moz-border-radius: 4px;
@@ -3089,6 +3142,9 @@ form input[type="checkbox"] {
 	outline: none;
 	cursor: pointer;
 
+}
+.mCSB_inside > .mCSB_container {
+	margin-right: 22px;
 }
 .feedback_form div {
 	position: relative;
@@ -3114,16 +3170,16 @@ form input[type="checkbox"] {
 .checkbox label:after {
 	content:'';
 	display:block;
-	height:20px;
-	width:20px;
+	height:22px;
+	width:22px;
 	-webkit-border-radius: 4px;
 	   -moz-border-radius: 4px;
 	        border-radius: 4px;
 	border: 1px solid #eeeeee;
 	background-color: #ffffff;
 	position:absolute;
-	top: 6px;
-    left: 18px;
+	top: 2px;
+    left: 0px;
 	cursor: pointer;
 }
 .checkbox input[type="checkbox"]:checked + label:after {
@@ -3719,11 +3775,9 @@ a.reviews_autor:hover,
 .news_catalog a:hover h2  {
     color: #0e64ad;
 }
-.catalog_product a.backet_h:hover{
-	transition: background 0.4s;
-}
 
-.catalog_product a.backet_h:hover {
+.catalog_product a.backet_h:hover,
+.product_item button.backet_h:hover {
     background: #074c83;
 }
 .news_catalog a:hover img{

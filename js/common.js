@@ -331,7 +331,11 @@ $(document).ready(function() {
 		// 	})
 		// });
 
-
+		(function($){
+			$(window).on("load",function(){
+				$(".checkbox_list .mCustomScrollbar").mCustomScrollbar();
+			});
+		})(jQuery);
 
 	
 

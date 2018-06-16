@@ -21,11 +21,13 @@
 	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.default.min.css" />
 	<link rel="stylesheet" href="libs/slick/slick.css">
 	<link rel="stylesheet" href="libs/slick/slick-theme.css">
+	<link rel="stylesheet" href="libs/malihu-scrollbar/jquery.mCustomScrollbar.css" />
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
 </head>
+
 <body>
 	<header>
 		<div class="head_navigation">
@@ -139,106 +141,106 @@
 				<div class="catalog_box">
 					<div class="catalog_list">
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img11.png" alt="">
 							</div>
 							<span>Конденсатоотводчики</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img4.png" alt="">
 							</div>
 							<span>Конденсатные насосы</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img11.png" alt="">
 							</div>
 							<span>Приборы контроля конденсатоотводчиков
 							</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img6.png" alt="">
 							</div>
 							<span>Редукционные клапаны</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img12.png" alt="">
 							</div>
 							<span>Паровые эжекторы</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img13.png" alt="">
 							</div>
 							<span>Редукционные клапаны</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img14.png" alt="">
 							</div>
 							<span>Регулирующие клапаны для воды</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img15.png" alt="">
 							</div>
 							<span>Сепараторы пара и воздуха</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img16.png" alt="">
 							</div>
 							<span>Регуляторы температуры прямого действия</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img17.png" alt="">
 							</div>
 							<span>Теплообменники пар/жидкость
 							</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img18.png" alt="">
 							</div>
 							<span>Охладители пара</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img19.png" alt="">
 							</div>
 							<span>Запорная арматура для пара и конденсата</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img8.png" alt="">
 							</div>
 							<span>Обратные клапаны</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img20.png" alt="">
 							</div>
 							<span>Фильтры</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img21.png" alt="">
 							</div>
 							<span>Предохранительные клапаны
 							</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img22.png" alt="">
 							</div>
 							<span>Котлы водогрейные</span>
 						</a>
 						<a href="#" class="catalog_list_item">
-							<div class="">
+							<div>
 								<img src="img/content_img23.png" alt="">
 							</div>
 							<span>Автоматика</span>
@@ -247,15 +249,14 @@
 					<div class="catalog_product">
 						<div class="catalog_filter">
 							<div>
-								<a id="toggler" href="#">Выбрать категорию</a>
-								<div class="filter_category" id="box">
-									<form>
-										<div class="search">
-											<input id="search_c" type="search" placeholder="Поиск" name="search">
-											<span class="search_icon"></span>
-										</div>
-										<div class="checkbox_list" id="scroll">
-											<div class="checkbox_list_item" id="scrollcontent">
+								<a class="filter_name" href="#">Выбрать категорию
+									<div class="filter_category" id="box">
+										<form>
+											<div class="search">
+												<input id="search_c" type="search" placeholder="Поиск" name="search">
+												<span class="search_icon"></span>
+											</div>
+											<div class="checkbox_list mCustomScrollbar" id="scroll">
 												<div class="checkbox">
 													<input id="filter_c_1" type="checkbox" name="data_processing" checked>
 													<label for="filter_c_1">конденсатоотводчики</label>
@@ -288,151 +289,207 @@
 													<input id="filter_c_8" type="checkbox" name="data_processing" checked>
 													<label for="filter_c_8">конденсатоотводчики</label>
 												</div>
+												<div class="checkbox">
+													<input id="filter_c_9" type="checkbox" name="data_processing" checked>
+													<label for="filter_c_9">Редукционные клапаны</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_c_10" type="checkbox" name="data_processing" checked>
+													<label for="filter_c_10">Паровые эжекторы</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_c_11" type="checkbox" name="data_processing" checked>
+													<label for="filter_c_11">Конденсатные насосы</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_c_12" type="checkbox" name="data_processing" checked>
+													<label for="filter_c_12">Редукционные клапаны</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_c_13" type="checkbox" name="data_processing" checked>
+													<label for="filter_c_13">конденсатоотводчики</label>
+												</div>
 											</div>
-											<div id="scrollbar">
-												<div id="scroller" class="scroller"></div>
+											<button class="btn" type="submit">Применить</button>
+										</form>
+									</div>
+								</a>
+							</div>
+							<div>
+								<a class="filter_name" href="#">Выбрать производителя
+									<div class="filter_category" id="box">
+										<form>
+											<div class="search">
+												<input id="search_b" type="search" placeholder="Поиск" name="search">
+												<span class="search_icon"></span>
 											</div>
-										</div>
-										<button class="btn" type="submit">Применить</button>
-									</form>
+											<div class="checkbox_list mCustomScrollbar" id="scroll">
+												<div class="checkbox">
+													<input id="filter_b_1" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_1">конденсатоотводчики</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_b_2" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_2">Конденсатные насосы</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_b_3" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_3">Приборы контроля конденсатоотводчиков</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_b_4" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_4">Редукционные клапаны</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_b_5" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_5">Паровые эжекторы</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_b_6" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_6">Конденсатные насосы</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_b_7" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_7">Редукционные клапаны</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_b_8" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_8">конденсатоотводчики</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_b_9" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_9">Редукционные клапаны</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_b_10" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_10">Паровые эжекторы</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_b_11" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_11">Конденсатные насосы</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_b_12" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_12">Редукционные клапаны</label>
+												</div>
+												<div class="checkbox">
+													<input id="filter_b_13" type="checkbox" name="data_processing" checked>
+													<label for="filter_b_13">конденсатоотводчики</label>
+												</div>
+											</div>
+											<button class="btn" type="submit">Применить</button>
+										</form>
+									</div>
+								</a>
+							</div>
+							<div>
+								<a class="filter_name" href="#">Указать цену</a>
+							</div>
+						</div>
+						<div class="product_item overlay">
+							<a href="#">
+								<div>
+									<img src="img/content_img4.png" alt="">
 								</div>
-							</div>
-							<div>
-								<a href="#">Выбрать производителя</a>
-								<div class="filter_category" id="box">
-									<form>
-										<div class="search">
-											<input id="search_c" type="search" placeholder="Поиск" name="search">
-											<span class="search_icon"></span>
-										</div>
-
-										<div class="checkbox">
-											<input id="filter_c_1" type="checkbox" name="data_processing" checked>
-											<label for="filter_c_1">конденсатоотводчики</label>
-										</div>
-										<div class="checkbox">
-											<input id="filter_c_2" type="checkbox" name="data_processing" checked>
-											<label for="filter_c_2">Конденсатные насосы</label>
-										</div>
-										<div class="checkbox">
-											<input id="filter_c_3" type="checkbox" name="data_processing" checked>
-											<label for="filter_c_3">Приборы контроля конденсатоотводчиков</label>
-										</div>
-										<div class="checkbox">
-											<input id="filter_c_4" type="checkbox" name="data_processing" checked>
-											<label for="filter_c_4">Редукционные клапаны</label>
-										</div>
-										<div class="checkbox">
-											<input id="filter_c_5" type="checkbox" name="data_processing" checked>
-											<label for="filter_c_5">Паровые эжекторы</label>
-										</div>
-										<div class="checkbox">
-											<input id="filter_c_6" type="checkbox" name="data_processing" checked>
-											<label for="filter_c_6">Конденсатные насосы</label>
-										</div>
-										<div class="checkbox">
-											<input id="filter_c_7" type="checkbox" name="data_processing" checked>
-											<label for="filter_c_7">Редукционные клапаны</label>
-										</div>
-										<div class="checkbox">
-											<input id="filter_c_8" type="checkbox" name="data_processing" checked>
-											<label for="filter_c_8">конденсатоотводчики</label>
-										</div>
-										<button class="btn" type="submit">Применить</button>
-									</form>
+								<div class="product_item_desc">
+									<span>1КС</span>
+									<span>Конденсатный насос</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
 								</div>
-							</div>
-							<div>
-								<a href="#">Указать цену</a>
-							</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_img4.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">1КС</a>
-								<a href="#">Конденсатный насос</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_im9.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>SpiraxSarco</span>
+									<span>Конденсатоотводчик</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_im9.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">SpiraxSarco</a>
-								<a href="#">Конденсатоотводчик</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img6.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>1КС</span>
+									<span>Редукционные клапаны</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_img6.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">1КС</a>
-								<a href="#">Редукционные клапаны</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_im9.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>SpiraxSarco</span>
+									<span>Конденсатоотводчик</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_im9.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">SpiraxSarco</a>
-								<a href="#">Конденсатоотводчик</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img8.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>1КС</span>
+									<span>Обратные клапаны</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_img4.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">1КС</a>
-								<a href="#">Конденсатный насос</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img7.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>SpiraxSarco</span>
+									<span>Конденсатоотводчик</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_im9.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">SpiraxSarco</a>
-								<a href="#">Конденсатоотводчик</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img9.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>1КС</span>
+									<span>Редукционные клапаны</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_img6.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">1КС</a>
-								<a href="#">Редукционные клапаны</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
-						</div>
-						<div class="product_item overlay">
-							<div>
-								<img src="img/content_im9.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">SpiraxSarco</a>
-								<a href="#">Конденсатоотводчик</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img7.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>SpiraxSarco</span>
+									<span>Предохранительные
+											клапаны</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<article class="product_banner">
 							<img src="img/content_img10.png" alt="">
@@ -445,119 +502,140 @@
 							</div>
 						</article>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_img4.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">1КС</a>
-								<a href="#">Конденсатный насос</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img4.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>1КС</span>
+									<span>Конденсатный насос</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_im9.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">SpiraxSarco</a>
-								<a href="#">Конденсатоотводчик</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img6.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>SpiraxSarco</span>
+									<span>Редукционные клапаны</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_img6.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">1КС</a>
-								<a href="#">Редукционные клапаны</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img4.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>1КС</span>
+									<span>Конденсатный насос</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_im9.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">SpiraxSarco</a>
-								<a href="#">Конденсатоотводчик</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img5.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>SpiraxSarco</span>
+									<span>Конденсатоотводчик</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_img4.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">1КС</a>
-								<a href="#">Конденсатный насос</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img6.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>1КС</span>
+									<span>Редукционные клапаны</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_im9.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">SpiraxSarco</a>
-								<a href="#">Конденсатоотводчик</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img5.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>SpiraxSarco</span>
+									<span>Конденсатоотводчик</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_img6.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">1КС</a>
-								<a href="#">Редукционные клапаны</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img8.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>1КС</span>
+									<span>Обратные клапаны</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_im9.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">SpiraxSarco</a>
-								<a href="#">Конденсатоотводчик</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img6.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>SpiraxSarco</span>
+									<span>Конденсатоотводчик</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_img4.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">1КС</a>
-								<a href="#">Конденсатный насос</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img9.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>1КС</span>
+									<span>Редукционные клапаны</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 						<div class="product_item overlay">
-							<div>
-								<img src="img/content_im9.png" alt="">
-							</div>
-							<div class="product_item_desc">
-								<a href="#">SpiraxSarco</a>
-								<a href="#">Конденсатоотводчик</a>
-								<span class="product_price">48 100 руб.</span>
-								<a class="backet_h" href="#">В корзину</a>
-							</div>
+							<a href="#">
+								<div>
+									<img src="img/content_img6.png" alt="">
+								</div>
+								<div class="product_item_desc">
+									<span>SpiraxSarco</span>
+									<span>Предохранительные
+											клапаны</span>
+									<span class="product_price">48 100 руб.</span>
+									<button class="backet_h" type="submit">В корзину</button>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="pagination">
-					<button class="pagination_btn btn_disabled" type="submit" disabled>Назад</button>
+					<button class="pagination_btn" type="submit" disabled>Назад</button>
 					<ul>
 						<li>
 							<a class="active_pagination" href="#">1</a>
@@ -627,7 +705,9 @@
 			</div>
 			<div class="footer_bottom">
 				<p>ООО «СУБМАРИНА», 2018</p>
-				<p><a href="#">Разработка сайта - UNIC</a></p>
+				<p>
+					<a href="#">Разработка сайта - UNIC</a>
+				</p>
 			</div>
 		</div>
 	</footer>
@@ -659,10 +739,8 @@
 	<script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/malihu-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script src="js/common.js"></script>
-	<script type="text/jаvascript"> 
-		TINY.scroller.init('scroll','scrollcontent','scrollbar','scroller','buttonclick');
-	</script>
 	<!-- Yandex.Metrika counter -->
 	<!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter -->
