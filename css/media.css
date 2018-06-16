@@ -442,6 +442,13 @@
 	.news_catalog a h2 {
 		padding: 0px 15px 21px 9px;
 	}
+	.reason_caption {
+		width: auto;
+		padding: 31px 0 0 27px;
+	}
+	footer .container {
+		padding: 0 15px;
+	}
 }
 
 @media only screen and (max-width : 900px) {
@@ -774,6 +781,9 @@
 	}
 	.slider_desc_item .btn {
 		display: none;
+	}
+	.banner_block .container {
+		padding-left: 0px;
 	}
 }
 @media only screen and (max-width : 820px) {
@@ -1167,7 +1177,7 @@
 		   object-fit: cover;
 		width: 100%;
 		z-index: 0;
-		height: 199px;
+		height: auto;
 	}
 }
 /* Extra Small Devices, Phones */
@@ -1565,8 +1575,8 @@
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.slider .pagingInfoo {
-		top: 50px;
+	.slider .pagingInfo {
+		top: 60px;
 	}
 	div.preview_img {
 		max-height: 106px;

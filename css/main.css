@@ -81,7 +81,10 @@ h1, h2, h3, h4, h5, h6{
 	max-width: 1220px;
 }
 footer .container {
-	padding: 0 24px;
+	padding: 0 6px 0 42px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+	margin-top: 59px;
 }
 .btn {
 	background-color: rgb(44, 42, 52);
@@ -106,7 +109,7 @@ footer .container {
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
-	padding: 0px 14px 0 16px;
+	padding: 0px 0px 0 32px;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
 	   -moz-box-pack: justify;
@@ -192,7 +195,7 @@ a{
 }
 .head_info {
     min-height: 71px;
-	padding: 0px 24px 0 17px;
+	padding: 0px 7px 0 34px;
     padding-bottom: 36px;
     padding-top: 24px;
     display: -webkit-box;
@@ -387,7 +390,7 @@ a{
 	position: absolute;
 	width: 1520px;
 	height: auto;
-	left: -186px;
+	left: -173px;
 	top: -2px;
 }
 .banner_img img {
@@ -410,8 +413,9 @@ a{
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
 .banner_block .container {
-	padding-top: 118px;
-	padding-bottom: 106px;
+	padding-top: 116px;
+    padding-bottom: 106px;
+    padding-left: 28px;
 }
 .banner_block_caption {
 	padding-left: 13px;
@@ -500,9 +504,9 @@ h2.white_caption {
 .services_item {
 	width: 100%;
     max-width: 406px;
-    padding-right: 111px;
+    padding-right: 100px;
     padding-top: 19px;
-    padding-left: 14px;
+    padding-left: 27px;
 }
 .services_item .wave_element {
 	top: 0px;
@@ -530,7 +534,16 @@ h2.white_caption {
 	width: 100%;
 	top: 6px;
 }
-.services_item p,
+.services_item p {
+	/* padding-top: 29px; */
+	padding-top: 23px;
+	font-size: 14px;
+	font-family: "Montserrat-Regular";
+	color: rgb(48, 62, 73);
+	line-height: 1.857;
+	text-align: left;
+	margin-bottom: 45px;
+}
 .reason_caption p {
 	/* padding-top: 29px; */
 	padding-top: 23px;
@@ -771,7 +784,10 @@ ul.advantages_list {
 	text-align: left;
 } 
 .our_works .container {
-	padding: 70px 20px 139px 30px;
+	padding: 70px 15px 139px 15px;
+}
+.footer .container {
+	padding: 0 15px;
 }
 .block_caption {
 	display: -webkit-box;
@@ -969,8 +985,8 @@ article.our_works_box {
 	padding-bottom: 125px;
 }
 .reason_caption {
-	width: 100%;
-	padding-top: 55px;
+	width: auto;
+    padding: 31px 0 0 27px;
 }
 .reason_caption p {
 	max-width: 430px;
@@ -1031,7 +1047,7 @@ article.our_works_box {
 	background-position-x: 0px;
 }
 .reason_desc {
-	padding: 32px 5px 52px 46px;
+	padding: 30px 5px 52px 60px;
 	position: relative;
 	width: 100%;
 	max-width: 620px;
@@ -1066,13 +1082,13 @@ article.our_works_box {
 	width: 856px;
 	height: 106%;
 	background: transparent url('../img/submarine_bg.png') no-repeat center;
-	left: -2px;
-	top: -5px;
-	z-index: -1;
-	display: block;
+    left: -12px;
+    top: -26px;
+    z-index: -1;
+    display: block;
 }
 .reviews_carousel {
-	padding-top: 47px;
+	padding-top: 52px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -moz-box;
@@ -1084,7 +1100,7 @@ article.our_works_box {
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 	position: relative;
-	left: -116px;
+	left: -98px;
 }
 .reviews_item {
 	width: 100%;
@@ -1100,7 +1116,7 @@ article.our_works_box {
 	line-height: 2;
 	text-align: left;
 	z-index: 68;
-	margin-bottom: 7px;
+	margin-bottom: 14px;
 }
 .rev_blockquote p {
 	color: #111111;
@@ -1156,8 +1172,8 @@ span.reviews_autor {
 	        align-items: center;
 }
 .partner_block .container {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 150px;
+    padding-bottom: 79px;
 }
 .partner_item {
 	max-height: 66px;
@@ -3583,7 +3599,7 @@ ul.submenu > li > a {
 	height: 600px;
 	outline: none;
 	position: absolute;
-	left: -200px;
+	left: -187px;
 }
 .slider_cool .panel {
 	display: -webkit-box;
